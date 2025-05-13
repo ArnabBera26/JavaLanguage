@@ -1,0 +1,21 @@
+Encapsulation is one of the core principles of Object-Oriented Programming (OOP) in Java.
+ It refers to the practice of hiding internal details of a class and restricting access to its data by using access modifiers.
+
+Key Concepts of Encapsulation
+Data Hiding – Instance variables are kept private.
+
+Getter & Setter Methods – Controlled access to data.
+
+Access Modifiers – private, public, protected determine visibility.
+
+
+Modifier	             Scope 	              Accessible in Subclasses?	               Accessible Outside 
+                                                                                            the Package?
+private	    Within the same class only	            ❌ No	                                  ❌ No
+
+default         (package-private)                   ✅ Yes (in same package)                    ❌ No
+        	Within the same package only		
+
+protected	Within the same package                  ✅ Yes	                        ❌ No (unless inherited)
+                 & subclasses	
+public	        Everywhere	                           ✅ Yes	                                ✅ Yes

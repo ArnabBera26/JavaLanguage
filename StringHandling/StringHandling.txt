@@ -1,0 +1,17 @@
+StringPool: The String Pool in Java is a special memory region inside the heap that stores string literals.
+ It helps optimize memory usage and improves performance by reusing identical string objects rather than creating new ones every time.
+
+StringBuilder: In Java, StringBuilder is a class used to create mutable sequences of characters. 
+Unlike String, which is immutable (meaning every modification creates a new object),
+ StringBuilder allows modifications without creating new objects, making it more efficient for frequent string manipulations.
+
+StringBuffer: In Java, StringBuffer is a mutable sequence of characters,similar to StringBuilder. 
+The primary difference is that StringBuffer is thread-safe, meaning
+ it is synchronized and can be used in multi-threaded environments without unexpected behavior.
+
+ StringTokenizer: In Java, StringTokenizer is a legacy class used to split a string into tokens based on predefined delimiters. It is part of the java.util package and provides a simple way to break a string into multiple parts.
+
+Key Features:
+    Uses default delimiters (space, tab, newline) unless specified.
+    Can ignore or include delimiters as tokens.
+    Less flexible than split() or Scanner, but still useful in specific cases.

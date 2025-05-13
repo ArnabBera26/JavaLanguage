@@ -1,0 +1,8 @@
+WrapperClass: A wrapper class in Java is a class that wraps a primitive data type into an object.
+ Java provides built-in wrapper classes for each primitive type,
+  which allows primitive values to be treated as objects when necessary.
+
+Why Use Wrapper Classes?
+    They allow primitive values to be used where objects are required (e.g., in collections like ArrayList).
+    Provide utility methods for parsing, converting, and manipulating values.
+    Enable autoboxing and unboxing, which helps convert between primitives and objects.

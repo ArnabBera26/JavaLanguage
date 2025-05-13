@@ -1,0 +1,24 @@
+In Java, abstraction is an Object-Oriented Programming (OOP) concept that is used to hide the implementation details and show only the relevant features of an object. It helps in reducing complexity and improving code maintainability.
+
+Ways to Achieve Abstraction in Java
+    Abstract Classes
+    Interfaces
+
+Abstract Class
+    An abstract class cannot be instantiated (you can't create objects from it).
+    It may contain both abstract and non-abstract methods.
+    Subclasses must provide implementations for the abstract methods.
+
+Abstract Methods
+    Only declared, not implemented in abstract classes.
+    Must be overridden in subclasses.
+    Cannot exist in non-abstract classes.
+
+Interface 
+    interface is a blueprint for a class that specifies a set of methods without providing their implementations. It is used to achieve abstraction and multiple inheritance.
+
+Key Features of Interfaces
+    Contains only abstract methods (until Java 8, when default & static methods were introduced).
+    A class must implement all methods from an interface.
+    Supports multiple inheritance as a class can implement multiple interfaces.
+    Cannot instantiate an interface directly.
