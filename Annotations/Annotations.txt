@@ -1,0 +1,9 @@
+
+Example of some build in annotations
+    @Override ->	Indicates a method overrides a superclass method.
+    @Deprecated ->	Marks a method/class as outdated (shouldn't be used).
+    @SuppressWarnings -> Suppresses specific compiler warnings.
+    @FunctionalInterface -> Marks an interface as a functional interface.
+    @SafeVarargs ->	Prevents heap pollution warnings in varargs methods.
+    @Retention -> Defines how long an annotation is retained (runtime, compile-time, etc.).
+    @Target ->	Specifies where the annotation can be applied (methods, fields, classes, etc.).

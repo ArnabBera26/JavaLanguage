@@ -1,0 +1,8 @@
+Enums: In Java, an enum (short for "enumeration") is a special type used to define a fixed set of constants. 
+Enums help make code more readable and prevent invalid values from being assigned to a variable.
+
+Features of Emun: 
+    Type Safety – Prevents invalid values from being assigned.
+    ✔ Fixed Set of Constants – Only predefined values can be used. 
+    ✔ Can Have Methods – Enums can have constructors, fields, and methods. 
+    ✔ Useful in Switch Statements – Can be used for better code organization.

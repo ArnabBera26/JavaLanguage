@@ -1,0 +1,9 @@
+throw (Used to manually throw an exception)
+    throw is used inside a method or block.
+    It manually throws an exception.
+    Can be used with both checked and unchecked exceptions.
+
+throws (Used in method signature to declare exceptions)
+    throws is used in the method declaration to indicate that the method might throw exceptions.
+    It does not throw an exception itself, but alerts the caller that exceptions may occur.
+    Mostly used for checked exceptions like IOException or SQLException.

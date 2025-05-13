@@ -1,0 +1,6 @@
+In Java, polymorphism is an Object-Oriented Programming (OOP) concept that allows a single interface to be used for different types. It enables one method, multiple implementations and promotes code flexibility.
+
+Types of Polymorphism in Java
+Method Overloading – Same method name, different parameters (compile-time polymorphism).
+
+Method Overriding – A child class redefines a method from the parent class (runtime polymorphism).

@@ -1,0 +1,16 @@
+The List interface in Java is part of the Java Collections Framework and extends the Collection interface.
+ It represents an ordered collection of elements, allowing duplicates and indexed access.
+
+Key Features of List
+✔ Maintains insertion order
+ ✔ Allows duplicate elements
+  ✔ Provides indexed access (like arrays)
+   ✔ Supports dynamic resizing
+
+Common Implementations of List
+
+Class	                                Description
+ArrayList	    Resizable array-based implementation (fast for retrieval)
+LinkedList	    Doubly-linked list (efficient for insertions/deletions)
+Vector	        Synchronized version of ArrayList
+Stack	         LIFO (Last-In-First-Out) stack implementation

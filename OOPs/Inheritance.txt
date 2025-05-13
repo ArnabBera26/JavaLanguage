@@ -1,0 +1,16 @@
+n Java, inheritance is a key feature of Object-Oriented Programming (OOP) that allows a class to acquire the properties and behaviors of another class. It helps promote code reuse and establishes a relationship between classes.
+
+Types of Inheritance in Java
+Single Inheritance – A child class inherits from a single parent class.
+
+Multilevel Inheritance – A class inherits from another derived class.
+
+Hierarchical Inheritance – Multiple child classes inherit from the same parent class.
+
+Hybrid Inheritance – A combination of different types (not directly supported in Java).
+
+**Java does not suppor multiple inheritance, but we can achive this using Interface 
+
+Code Reusability – Reduces repetition by using existing classes. 
+✔ Method Overriding – Child classes can modify inherited methods. 
+✔ Super Keyword – Helps access parent class properties and methods.
